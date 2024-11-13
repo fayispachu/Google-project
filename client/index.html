@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <link rel="stylesheet" href="src/index.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Google</title>
+
+    <link
+      href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="">
+    <header class="">
+      <nav
+        id="navbar"
+        class="md:flex md:items-center border md:border-none shadow w-full"
+      >
+        <div
+          class="md:justify-between md:pt-5 md:w-[9%] md:py-5 md:px-3 flex flex-row gap-3 items-center px-5 py-4"
+        >
+          <button id="menu-open" class="flex md:hidden absolute left-6" href="">
+            <i
+              class="hover:bg-slate-100 bg-white icon ion-ios-menu text-3xl cursor-pointer text-gray-600 md:hidden"
+              name="menu"
+            ></i>
+          </button>
+
+          <a class="" href="#">
+            <img
+              class="w-28 pt-1 pl-9 md:pl-1 md:w-[15vw] md:px-3"
+              src="https://about.google/assets-main/img/glue-google-color-logo.svg"
+              alt=""
+            />
+          </a>
+        </div>
+        <div id="sidebar" class=" ">
+          <ul
+            class="font-sans font-medium text-base md:flex md:items-center md:gap-[0.2vw] md:pt-1 text-gray-500"
+          >
+            <li class="hover:text-black md:block hidden">
+              <a
+                class="py-3 px-3 hover:bg-slate-100 rounded-l rounded-r"
+                href="#"
+                >About</a
+              >
+            </li>
+            <li id="products-link" class="hover:text-black md:block hidden">
+              <a
+                class="py-3 px-3 hover:bg-slate-100 rounded-l rounded-r"
+                href="src/product.html"
+                >Products</a
+              >
+            </li>
+            <li class="hover:text-black md:block hidden">
+              <a
+                class="py-3 px-3 hover:bg-slate-100 rounded-l rounded-r"
+                href="#"
+                >Commitments</a
+              >
+            </li>
+            <li class="hover:text-black md:block hidden">
+              <a
+                class="py-3 px-3 hover:bg-slate-100 rounded-l rounded-r"
+                href="#"
+                >Stories</a
+              >
+            </li>
+            <li class="hover:text-black md:block hidden">
+              <a
+                class="py-3 px-3 hover:bg-slate-100 rounded-l rounded-r"
+                href="#"
+                >India Blog</a
+              >
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <div
+      id="mobile-sidebar"
+      class="absolute hidden bg-white w-[75%] h-[100vh] top-0"
+    >
+      <div>
+        <a class="" href="#">
+          <img
+            class="w-[16vw] pt-6 pl-4"
+            src="https://about.google/assets-main/img/glue-google-color-logo.svg"
+            alt=""
+          />
+        </a>
+
+        <hr class="mt-4" />
+      </div>
+      <div class="">
+        <ul class="font-sans font-medium text-base text-gray-500 py-8">
+          <li class="hover:text-black px-2 py-3">
+            <a class="py-3 px-3 hover:bg-slate-100 rounded-l rounded-r" href="#"
+              >About</a
+            >
+          </li>
+          <li class="hover:text-black px-2 py-3">
+            <a
+              class="py-3 px-3 hover:bg-slate-100 rounded-l rounded-r"
+              href="src/product.html"
+              >Products</a
+            >
+          </li>
+          <li class="hover:text-black px-2 py-3">
+            <a class="py-3 px-3 hover:bg-slate-100 rounded-l rounded-r" href="#"
+              >Commitments</a
+            >
+          </li>
+          <li class="hover:text-black px-2 py-3">
+            <a class="py-3 px-3 hover:bg-slate-100 rounded-l rounded-r" href="#"
+              >Stories</a
+            >
+          </li>
+          <li class="hover:text-black px-2 py-3">
+            <a class="py-3 px-3 hover:bg-slate-100 rounded-l rounded-r" href="#"
+              >India Blog</a
+            >
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="text-center flex md:pt-16 sm:pt-10 md:px-48 pt-9 px-10">
+      <h1 class="font-normal md:text-3xl text-xl">
+        Our mission is to <span class="text-sky-500">organize</span> the world’s
+        <span class="text-rose-700">information</span> and make it
+        <span class="text-green-600">universally accessible</span> and
+        <span class="text-orange-500">useful</span>.
+      </h1>
+    </div>
+    <div class="md:px-44 md:pt-20 pt-16 px-8">
+      <img
+        class=""
+        src="https://lh3.googleusercontent.com/cA6h3Ltw2BzN8NXtoPW09vg830YF4TxI5qJ14U83aonUQcpAWks4FFw8SKQ3vkcNbnB-0EiUNbIWWUU8Xc9OIsRTIF8L3KqwesDl2zcm3U2Nyw673dI=w1440-l80-sg-rp"
+        alt=""
+      />
+    </div>
+    <div class="text-center pt-9 md:px-60">
+      <h1 class="font-normal md:text-3xl text-xl text-zinc-900">
+        See our latest product news, AI updates and company announcements
+      </h1>
+    </div>
+    <div class="pt-9">
+      <p class="text-center">
+        <a
+          class="text-blue-500 py-3 px-3 hover:bg-slate-100 rounded-l rounded-r text-l hover:text-blue-800"
+          href="#"
+          >Learn more</a
+        >
+      </p>
+    </div>
+    <div class="text-center md:px-32 px-10">
+      <h1
+        class="md:text-5xl text-4xl font-semibold font-sans pt-28 text-zinc-900"
+      >
+        Make life easier with a little help from our products
+      </h1>
+    </div>
+    <div class="flex md:flex-col pt-16 flex-row md:gap-[1vw]">
+      <button class="absolute md:left-[35%] left-[9%]">
+        <a
+          href="#"
+          type="button"
+          class="bg-blue-600 py-4 px-8 text-white rounded-l rounded-r hover:bg-blue-700"
+          >View all our products</a
+        >
+      </button>
+      <button class="absolute left-[52%] md:pt-0 pt-1">
+        <a
+          href="#"
+          type="button"
+          button
+          class="bg-white py-4 px-8 text-blue-600 rounded-l rounded-r border hover:border-blue-600 hover:bg-blue-100 hover:text-blue-800"
+          >Get Product support</a
+        >
+      </button>
+    </div>
+    <div
+      class="bookdiv pt-28 px-6 md:px-0 flex justify-center md:items-center flex-col"
+    >
+      <a class="rounded-l rounded-rborder" href="#">
+        <img
+          class="rounded-l rounded-r md:w-[70vw]"
+          src="src/image copy.png"
+          alt=""
+        />
+
+        <h1
+          class="font-normal md:text-3xl text-xl text-zinc-900 text-center px-3"
+        >
+          Discover easy-to-use tools that offer a flexible and
+        </h1>
+        <h1
+          class="font-normal md:text-3xl text-xl text-zinc-900 text-center px-1"
+        >
+          secure foundation for the learning and collaborating
+        </h1>
+        <p class="text-center text-blue-700 pt-3">Learn more</p>
+      </a>
+    </div>
+    <div class="text-center md:py-10 md:px-32 px-14">
+      <h1
+        class="md:text-5xl text-4xl font-semibold md:font-medium font-sans pt-20 md:px-16 text-zinc-900"
+      >
+        Committed to significantly improving the lives of as many people as
+        possible
+      </h1>
+
+      <p class="pt-12 md:pt-20">
+        <a
+          href="#"
+          type="button"
+          class="bg-blue-600 py-3 px-8 md:py-4 md:px-9 text-white rounded-l rounded-r hover:bg-blue-700"
+          >View all our commitments</a
+        >
+      </p>
+    </div>
+
+    <div
+      class="pt-8 px-7 flex justify-center md:flex-row flex-col gap-12 md:px-16 md:pt-24"
+    >
+      <a class="rounded-l rounded-r hover:border-blue-800 md:w-[30vw]" href="#">
+        <img class="rounded-l rounded-r" src="src/image copy 2.png" alt="" />
+        <h1 class="text-xl text-zinc-900 text-center pt-5 md:text-3xl">
+          Including all voices
+        </h1>
+        <p class="text-center text-blue-700 pt-3">Learn more</p></a
+      >
+
+      <a
+        class="pt-8 md:pt-0 flex justify-center flex-col rounded-l rounded-r hover:border-blue-800 md:w-[30vw]"
+        href="#"
+      >
+        <img class="rounded-l rounded-r" src="src/image copy 3.png" alt="" />
+        <h1 class="text-xl text-zinc-900 text-center pt-5 md:text-3xl">
+          Unlocking opportunity
+        </h1>
+        <p class="text-center text-blue-700 pt-3">Learn more</p></a
+      >
+
+      <a
+        class="pt-8 md:pt-0 flex justify-center md:justify-start flex-col rounded-l rounded-r hover:border-blue-800 md:w-[30vw]"
+        href="#"
+      >
+        <img class="rounded-l rounded-r" src="src/image copy 4.png" alt="" />
+        <h1 class="text-xl text-zinc-900 text-center pt-5 md:text-3xl">
+          Protecting users
+        </h1>
+        <p class="text-center text-blue-700 pt-3">Learn more</p></a
+      >
+    </div>
+
+    <div
+      class="pt-8 px-7 flex justify-center flex-col md:flex-row gap-10 md:pt-20 md:px-48"
+    >
+      <a class="rounded-l rounded-r hover:border-blue-800" href="#">
+        <img class="rounded-l rounded-r" src="src/image copy 5.png" alt="" />
+        <h1 class="text-xl text-zinc-900 text-center pt-5">
+          Responding to crises
+        </h1>
+        <p class="text-center text-blue-700 pt-3">Learn more</p></a
+      >
+      <a class="rounded-l rounded-r hover:border-blue-800" href="#">
+        <img class="rounded-l rounded-r" src="src/image copy 6.png" alt="" />
+        <h1 class="text-xl text-zinc-900 text-center pt-5">
+          Advancing sustainability
+        </h1>
+        <p class="text-center text-blue-700 pt-3 pb-3">Learn more</p></a
+      >
+    </div>
+
+    <footer class="pt-10">
+      <div class="bg-zinc-50">
+        <div class="md:flex-row-reverse justify-between md:hidden">
+          <section
+            class="flex flex-row justify-end gap-3 pb-7 w-[85%] ml-10 mr-12 border border-l-0 border-r-0 border-t-0"
+          >
+            <img
+              class="mt-10 hover:bg-slate-200"
+              src="src/internet.png"
+              alt=""
+            />
+            <p class="mt-10">
+              <a class="hover:bg-slate-200" href="">हिन्दी</a>
+            </p>
+          </section>
+          <section
+            class="flex flex-row space-x-1 pt-4 pb-16 md:items-center w-[85%] ml-10 mr-12 border border-l-0 border-r-0 border-t-0"
+          >
+            <h1 class="font-semibold hidden">Follow us</h1>
+
+            <a
+              class="hover:bg-slate-200 px-3 py-3"
+              href="https://www.instagram.com/"
+              target="_blank"
+              ><img src="src/instagram-logo.png" alt=""
+            /></a>
+            <a
+              class="hover:bg-slate-200 px-3 py-3"
+              href="https://www.youtube.com/"
+            >
+              <img src="src/youtube.png" alt=""
+            /></a>
+            <a
+              class="hover:bg-slate-200 px-3 py-3"
+              href="https://x.com/?lang=en"
+            >
+              <img src="src/twitter.png" alt=""
+            /></a>
+            <a
+              class="hover:bg-slate-200 px-3 py-3"
+              href="https://www.facebook.com/"
+              target="_blank"
+              ><img src="src/facebook (3).png" alt=""
+            /></a>
+            <a
+              class="hover:bg-slate-200 px-3 py-3"
+              href="https://www.linkedin.com/home/?originalSubdomain=in"
+              target="_blank"
+              ><img src="src/linkedin-logo.png" alt=""
+            /></a>
+          </section>
+        </div>
+        <!-- md follow us  -->
+        <div
+          class="md:flex md:flex-row-reverse justify-between md:items-center border border-l-0 border-r-0 border-t-0 w-[90%] ml-16 hidden"
+        >
+          <section class="flex flex-row justify-end gap-3 pr-8 pb-7">
+            <img
+              class="mt-10 hover:bg-slate-200"
+              src="src/internet.png"
+              alt=""
+            />
+            <p class="mt-10">
+              <a class="hover:bg-slate-200" href="">हिन्दी</a>
+            </p>
+          </section>
+          <section class="flex flex-row pt-4 pb-5 md:items-center gap-8">
+            <h1 class="font-semibold">Follow us</h1>
+
+            <a
+              class="hover:bg-slate-200 px-3 py-3"
+              target="_blank"
+              href="https://www.instagram.com/"
+              ><img src="src/instagram-logo.png" alt=""
+            /></a>
+            <a
+              class="hover:bg-slate-200 px-3 py-3"
+              target="_blank"
+              href="https://www.youtube.com/"
+            >
+              <img src="src/youtube.png" alt=""
+            /></a>
+            <a
+              class="hover:bg-slate-200 px-3 py-3"
+              target="_blank"
+              href="https://x.com/?lang=en"
+            >
+              <img src="src/twitter.png" alt=""
+            /></a>
+            <a
+              class="hover:bg-slate-200 px-3 py-3"
+              target="_blank"
+              href="https://www.facebook.com/"
+              ><img src="src/facebook (3).png" alt=""
+            /></a>
+            <a
+              class="hover:bg-slate-200 px-3 py-3"
+              target="_blank"
+              href="https://www.linkedin.com/home/?originalSubdomain=in"
+              ><img src="src/linkedin-logo.png" alt=""
+            /></a>
+          </section>
+        </div>
+        <!-- more about md screen -->
+        <div class="md:flex md:flex-row hidden gap-[15vw] w-[90%] ml-9 pb-6">
+          <section class="flex md:py-10 md:px-7 md:flex-col gap-2">
+            <label class="pr-[60vw] md:pr-3 font-semibold" for="about"
+              >More about us</label
+            >
+
+            <ul class="font-semibold text-gray-500">
+              <li class="py-2" value="">
+                <a class="hover:text-black" href="#">Contact us</a>
+              </li>
+              <li class="py-2" value="">
+                <a class="hover:text-black" href="#">Investor relations</a>
+              </li>
+              <li class="py-2" value="">
+                <a class="hover:text-black" href="#">Careers</a>
+              </li>
+              <li class="py-2" value="">
+                <a class="hover:text-black" href="#">Locations</a>
+              </li>
+              <li class="py-2" value="">
+                <a class="hover:text-black" href="#">Blog</a>
+              </li>
+              <li class="py-2" value="">
+                <a class="hover:text-black" href="#">Think with Google</a>
+              </li>
+              <li class="py-2" value="">
+                <a class="hover:text-black" href="#">Transparency Center</a>
+              </li>
+            </ul>
+          </section>
+
+          <section
+            class="flex py-7 md:py-7 px-7 justify-between flex-col bg-slate-50 border-none gap-2"
+            name="more about us"
+            id="list"
+          >
+            <label class="pr-[60vw] md:pr-3 font-semibold" for="about"
+              >Press room</label
+            >
+            <ul class="font-semibold text-gray-500 pb-52">
+              <li class="py-2" value="">
+                <a class="hover:text-black" href="#">Press enquiries</a>
+              </li>
+              <li class="py-2" value="">
+                <a class="hover:text-black" href="#">Images & B-roll</a>
+              </li>
+              <li class="py-2" value="">
+                <a class="hover:text-black" href="#">Permisiions</a>
+              </li>
+            </ul>
+          </section>
+
+          <section
+            name="more about us"
+            id="list"
+            class="flex flex-col pt-6 pb-12 md:py-7 px-7 justify-between"
+          >
+            <label class="pr-[60vw] md:pr-3 font-semibold" for="about"
+              >Policy</label
+            >
+            <ul class="font-semibold text-gray-500">
+              <li class="py-2" value="">
+                <a class="hover:text-black" href="#">Application security</a>
+              </li>
+              <li class="py-2" value="">
+                <a class="hover:text-black" href="#">Software principles</a>
+              </li>
+              <li class="py-2" value="">
+                <a class="hover:text-black" href="#"
+                  >Unwanted software policy</a
+                >
+              </li>
+              <li class="py-2" value="">
+                <a class="hover:text-black" href="#"
+                  >Responsible supply chain</a
+                >
+              </li>
+              <li class="py-2" value="">
+                <a class="hover:text-black" href="#">Extended workforce</a>
+              </li>
+              <li class="py-2" value="">
+                <a class="hover:text-black" href="#"
+                  >Conflict minerals policy</a
+                >
+              </li>
+              <li class="py-2" value="">
+                <a class="hover:text-black" href="#">Community Guidelines</a>
+              </li>
+              <li class="py-2" value="">
+                <a class="hover:text-black" href="#">How our business works</a>
+              </li>
+            </ul>
+          </section>
+        </div>
+        <!-- sm option -->
+        <div class="md:hidden">
+          <div class="md:flex md:flex-row">
+            <section
+              class="flex pb-7 pt-12 md:py-7 px-7 justify-between flex-col"
+            >
+              <select
+                class="font-semibold bg-slate-50 border-none outline-none"
+              >
+                <option value="">More about us</option>
+                <option value="">Contact us</option>
+                <option value="">Investor relations</option>
+                <option value="">Careers</option>
+                <option value="">Locations</option>
+                <option value="">Blog</option>
+                <option value="">Think with Google</option>
+                <option value="">Transparency Center</option>
+              </select>
+            </section>
+            <hr class="w-[90%] absolute left-6 md:hidden" />
+            <section
+              class="flex py-7 md:py-7 px-7 justify-between flex-col bg-slate-50 border-none"
+              name="more about us"
+              id="list"
+            >
+              <select
+                class="font-semibold bg-slate-50 border-none outline-none"
+              >
+                <option value="">Press room</option>
+                <option value="">Press enquiries</option>
+                <option value="">Images & B-roll</option>
+                <option value="">Permisiions</option>
+              </select>
+            </section>
+            <hr class="w-[90%] absolute left-6" />
+            <span
+              name="more about us"
+              id="list"
+              class="flex flex-col pt-6 pb-12 md:py-7 px-7 justify-between"
+            >
+              <select
+                class="font-semibold bg-slate-50 border-none outline-none"
+              >
+                <option value="">Policy</option>
+                <option>Application security</option>
+                <option>Software principles</option>
+                <option>Unwanted software policy</option>
+                <option>Responsible supply chain</option>
+                <option>Extended workforce</option>
+                <option>Conflict minerals policy</option>
+                <option>Community Guidelines</option>
+                <option>How our business works</option>
+              </select>
+            </span>
+          </div>
+        </div>
+
+        <div class="px-7 pb-4 pt-14 border border-b-0 md:hidden">
+          <img
+            class=""
+            src="https://about.google/assets-main/img/glue-google-solid-logo.svg"
+            alt=""
+          />
+        </div>
+
+        <div
+          class="flex flex-row space-x-6 items-center pb-8 pt-2 px-7 md:hidden"
+        >
+          <a class="flex flex-row space-x-3" href="#"
+            ><img class="" src="src/question.png" alt="" />
+            <h1 class="text-zinc-900">Help</h1></a
+          >
+          <a href="#"><h1 class="text-zinc-900">Privacy</h1></a>
+          <a href="#"><h1 class="text-zinc-900">Terms</h1></a>
+        </div>
+
+        <!-- md google logo -->
+
+        <div
+          class="md:flex md:flex-row hidden border items-center py-9 pl-2 gap-12 border-l-0 border-r-0 border-b-0 w-[90%] ml-16"
+        >
+          <section class=" ">
+            <img
+              class="text-gray-400"
+              src="https://about.google/assets-main/img/glue-google-solid-logo.svg"
+              alt=""
+            />
+          </section>
+
+          <section class="flex flex-row space-x-6">
+            <a class="flex flex-row space-x-3" href="#"
+              ><img class="text-gray-400" src="src/question.png" alt="" />
+              <h1 class="font-semibold text-gray-500">
+                <a class="hover:text-black" href="#">Help</a>
+              </h1></a
+            >
+            <h1 class="font-semibold text-gray-500">
+              <a class="hover:text-black" href="#">Privacy</a>
+            </h1>
+            <h1 class="font-semibold text-gray-500">
+              <a class="hover:text-black" href="#">Terms</a>
+            </h1>
+          </section>
+        </div>
+      </div>
+    </footer>
+
+    <script src="src/index.js"></script>
+  </body>
+</html>

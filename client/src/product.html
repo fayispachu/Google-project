@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Browse All of Google's Products</title>
+    <link rel="stylesheet" href="index.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="">
+    <header>
+      <nav id="navbar" class="md:flex md:items-center border md:border-none">
+        <div
+          class="md:justify-between md:pt-5 md:w-[9%] md:py-5 md:px-3 flex flex-row gap-3 items-center px-5 py-4"
+        >
+          <button id="menu-open" class="flex md:hidden absolute left-6" href="">
+            <i
+              class="hover:bg-slate-100 bg-white icon ion-ios-menu text-3xl cursor-pointer text-gray-600 md:hidden"
+              name="menu"
+            ></i>
+          </button>
+
+          <a class="" href="#">
+            <img
+              class="w-28 pt-1 pl-12 md:pl-1 md:w-[15vw] md:px-3"
+              src="https://about.google/assets-main/img/glue-google-color-logo.svg"
+              alt=""
+            />
+          </a>
+        </div>
+        <div id="sidebar" class=" ">
+          <ul
+            class="font-sans font-medium text-base md:flex md:items-center md:gap-[0.2vw] md:pt-1 text-gray-500"
+          >
+            <li class="hover:text-black md:block hidden">
+              <a
+                class="py-3 px-3 hover:bg-slate-100 rounded-l rounded-r"
+                href="#"
+                >About</a
+              >
+            </li>
+            <li id="products-link" class="hover:text-black md:block hidden">
+              <a
+                class="py-3 px-3 hover:bg-slate-100 rounded-l rounded-r"
+                href="src/product.html"
+                >Products</a
+              >
+            </li>
+            <li class="hover:text-black md:block hidden">
+              <a
+                class="py-3 px-3 hover:bg-slate-100 rounded-l rounded-r"
+                href="#"
+                >Commitments</a
+              >
+            </li>
+            <li class="hover:text-black md:block hidden">
+              <a
+                class="py-3 px-3 hover:bg-slate-100 rounded-l rounded-r"
+                href="#"
+                >Stories</a
+              >
+            </li>
+            <li class="hover:text-black md:block hidden">
+              <a
+                class="py-3 px-3 hover:bg-slate-100 rounded-l rounded-r"
+                href="#"
+                >India Blog</a
+              >
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <div
+      id="mobile-sidebar"
+      class="absolute hidden bg-white w-[75%] h-[100vh] top-0"
+    >
+      <div>
+        <a class="" href="#">
+          <img
+            class="w-[16vw] pt-6 pl-4"
+            src="https://about.google/assets-main/img/glue-google-color-logo.svg"
+            alt=""
+          />
+        </a>
+
+        <hr class="mt-4" />
+      </div>
+      <div class="">
+        <ul class="font-sans font-medium text-base text-gray-500 py-8">
+          <li class="hover:text-black px-2 py-3">
+            <a class="py-3 px-3 hover:bg-slate-100 rounded-l rounded-r" href="#"
+              >About</a
+            >
+          </li>
+          <li class="hover:text-black px-2 py-3">
+            <a class="py-3 px-3 hover:bg-slate-100 rounded-l rounded-r" href="#"
+              >Products</a
+            >
+          </li>
+          <li class="hover:text-black px-2 py-3">
+            <a class="py-3 px-3 hover:bg-slate-100 rounded-l rounded-r" href="#"
+              >Commitments</a
+            >
+          </li>
+          <li class="hover:text-black px-2 py-3">
+            <a class="py-3 px-3 hover:bg-slate-100 rounded-l rounded-r" href="#"
+              >Stories</a
+            >
+          </li>
+          <li class="hover:text-black px-2 py-3">
+            <a class="py-3 px-3 hover:bg-slate-100 rounded-l rounded-r" href="#"
+              >India Blog</a
+            >
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- sm creen h1 -->
+    <div class="md:hidden">
+      <div>
+        <section class="flex flex-col pl-7 pt-10">
+          <h1 class="text-4xl">Helpful products.</h1>
+          <h1 class="text-4xl">For everyone.</h1>
+        </section>
+        <section
+          class="flex flex-col border rounded-l rounded-r items-center w-4/5 ml-14 mt-9 hover:shadow hover:shadow-gray-700"
+        >
+          <img class="" src="unnamed.jpg" alt="" />
+
+          <p class="text-xl text-gray-800 py-6">Get product support</p>
+        </section>
+      </div>
+      <div class="hidden">
+        <!-- browse btn -->
+        <div class="flex justify-center py-12 md:py-7">
+          <button class="">
+            <a
+              href="#"
+              type="button"
+              class="bg-blue-600 py-3 px-8 text-white rounded-l rounded-r hover:bg-blue-700 font-semibold"
+              >Browse all products</a
+            >
+          </button>
+        </div>
+        <!-- Transform h1 -->
+        <div class="text-center pt-6">
+          <h1 class="text-4xl">Transform how people work</h1>
+          <h1 class="text-4xl">together with Google</h1>
+          <h1 class="text-4xl">Workspace</h1>
+        </div>
+        <!-- Get more -->
+        <div class="text-center">
+          <h1 class="text-xl text-gray-800 py-4">
+            Get more done with a single, connected experience.
+          </h1>
+          <p class="text-center text-blue-700 pt-1">Learn more</p>
+        </div>
+        <div
+          class="md:hidden border rounded-l rounded-r items-center w-11/12 ml-5 mt-9"
+        >
+          <img class="" src="image copy 9.png" alt="" />
+        </div>
+        <div
+          class="flex justify-center items-center flex-col mt-36 text-center pb-14 border border-t-0"
+        >
+          <img class="w-56 pb-8" src="image copy 10.png" alt="" />
+          <h1 class="text-4xl pb-8">Safer with Google</h1>
+          <p class="text-2xl text-gray-600">
+            It’s our responsibility to protect your
+          </p>
+          <p class="text-2xl text-gray-600">
+            privacy and security in every product we
+          </p>
+          <p class="text-2xl text-gray-600">
+            make — so that every day you’re safer with
+          </p>
+          <p class="text-2xl text-gray-600">Google</p>
+          <button class="pt-10">
+            <a
+              href="#"
+              type="button"
+              class="bg-blue-600 py-3 px-8 text-white rounded-l rounded-r hover:bg-blue-700 font-semibold"
+              >Visit the Safety Center</a
+            >
+          </button>
+        </div>
+      </div>
+    </div>
+    <!-- md screen start-->
+    <div class="hidden md:flex">
+      <div class="flex flex-row items-center">
+        <section class="flex flex-col pl-16 pt-6 h-screen">
+          <h1 class="text-9xl font-normal">Helpful</h1>
+          <h1 class="text-9xl font-normal">products.</h1>
+          <h1 class="text-9xl font-normal">For</h1>
+          <h1 class="text-9xl font-normal">everyone.</h1>
+        </section>
+        <section
+          class="flex flex-col border rounded-l rounded-r items-center ml-72 mb-16 hover:shadow hover:shadow-gray-700"
+        >
+          <img class="w-72 h-44" src="unnamed.jpg" alt="" />
+
+          <p class="text-xl text-gray-800 py-6">Get product support</p>
+        </section>
+      </div>
+    </div>
+    <!-- browse btn -->
+    <div class="flex justify-center py-12">
+      <button class="">
+        <a
+          href="#"
+          type="button"
+          class="bg-blue-600 py-3 px-8 text-white rounded-l rounded-r hover:bg-blue-700 font-semibold"
+          >Browse all products</a
+        >
+      </button>
+    </div>
+    <!-- Transform h1 sm -->
+    <div class="md:hidden">
+      <div class="text-center pt-6">
+        <h1 class="text-4xl">Transform how people work</h1>
+        <h1 class="text-4xl">together with Google</h1>
+        <h1 class="text-4xl">Workspace</h1>
+      </div>
+      <!-- Get more -->
+      <div class="text-center">
+        <h1 class="text-xl text-gray-800 py-4">
+          Get more done with a single, connected experience.
+        </h1>
+        <p class="text-center text-blue-700 pt-1">Learn more</p>
+      </div>
+      <div class="border rounded-l rounded-r items-center w-11/12 ml-5 mt-9">
+        <img class="" src="image copy 9.png" alt="" />
+      </div>
+    </div>
+    <!-- Transform h1 md -->
+    <div class="hidden md:flex justify-between mx-16 my-10">
+      <div class="flex flex-col text-gray-800">
+        <h1 class="text-5xl py-2">Transform how</h1>
+        <h1 class="text-5xl py-2">people work together</h1>
+        <h1 class="text-5xl py-2">with Google</h1>
+        <h1 class="text-5xl py-2">Workspace</h1>
+        <h1 class="text-xl text-gray-800 py-4">
+          Get more done with a single, connected experience.
+        </h1>
+        <p class="text-blue-700">Learn more</p>
+      </div>
+      <!-- Get more -->
+
+      <div class="border rounded-l rounded-r flex justify-end">
+        <img class="" src="image copy 9.png" alt="" />
+      </div>
+    </div>
+    <!-- shild google -->
+    <div
+      class="flex justify-center items-center flex-col mt-36 text-center pb-14 border border-t-0"
+    >
+      <img class="w-56 md:w-40 pb-8" src="image copy 10.png" alt="" />
+      <h1 class="text-4xl pb-8 md:text-7xl text-gray-700">Safer with Google</h1>
+      <span class="md:hidden">
+        <p class="text-2xl text-gray-600">
+          It’s our responsibility to protect your
+        </p>
+        <p class="text-2xl text-gray-600">
+          privacy and security in every product we
+        </p>
+        <p class="text-2xl text-gray-600">
+          make — so that every day you’re safer with
+        </p>
+        <p class="text-2xl text-gray-600">Google</p>
+      </span>
+      <span class="hidden md:flex md:flex-col">
+        <p class="text-3xl text-gray-600">
+          It’s our responsibility to protect your privacy and
+        </p>
+        <p class="text-3xl text-gray-600">
+          security in every product we make — so that
+        </p>
+        <p class="text-3xl text-gray-600">every day you’re safer with Google</p>
+      </span>
+      <button class="pt-10">
+        <a
+          href="#"
+          type="button"
+          class="bg-blue-600 py-3 px-8 text-white rounded-l rounded-r hover:bg-blue-700 font-semibold"
+          >Visit the Safety Center</a
+        >
+      </button>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
